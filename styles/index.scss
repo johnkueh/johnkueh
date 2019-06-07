@@ -1,0 +1,9 @@
+// Custom variables
+@import './variables';
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,900&display=swap');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -7,9 +7,16 @@ export default () => (
     <div className="p-3 mb-md-5 px-md-0 py-md-5">
       <div className="row">
         <div className="col-md-12 d-flex flex-column text-center justify-content-center">
-          <img className="mx-auto mb-5" width="88" src="/static/images/innovation.svg" />
-          <h1>Hello, I'm John.</h1>
-          <p>I help startups build awesome products at blazing speed. Here's some of my work.</p>
+          <img
+            alt="innovation"
+            className="mx-auto mb-5"
+            width="88"
+            src="/static/images/innovation.svg"
+          />
+          <h1>Hello, I&apos;m John.</h1>
+          <p>
+            I help startups build awesome products at blazing speed. Here&apos;s some of my work.
+          </p>
         </div>
       </div>
     </div>
@@ -260,7 +267,10 @@ export default () => (
     <div className="py-5 mt-5 text-center">
       <Link href="/contact">
         <a href="/contact" className="btn btn-primary btn-lg">
-          Get in touch &nbsp;👋
+          Get in touch &nbsp;
+          <span aria-label="hand" role="img">
+            👋
+          </span>
         </a>
       </Link>
     </div>

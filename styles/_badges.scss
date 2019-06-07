@@ -1,0 +1,13 @@
+@import './variables';
+
+.badge-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  @extend .rounded-circle;
+  @include add-theme-bg();
+}

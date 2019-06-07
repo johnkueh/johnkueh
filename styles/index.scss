@@ -1,9 +1,41 @@
 // Custom variables
 @import './variables';
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900,900i|Source+Sans+Pro:400,700&display=swap');
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  @extend .d-flex;
+  @extend .w-100;
+  @extend .p-0;
+  @extend .mx-0;
+  @extend .mb-0;
+  justify-content: flex-end;
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+}
+.nav-link,
+.nav-link:hover {
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #888;
+  &:hover,
+  &.active {
+    color: $primary;
+  }
+}
+
+@import 'typography';
+@import 'cards';
+@import 'badges';

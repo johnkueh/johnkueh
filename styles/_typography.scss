@@ -1,0 +1,49 @@
+strong {
+  @extend .font-weight-600;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-size-md {
+  font-size: 20px;
+}
+
+.headings {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+
+.lead {
+  color: #888;
+  line-height: 1.2;
+}
+
+.text-brand {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  @extend .headings;
+}
+
+h1 ~ p {
+  @extend .lead;
+  font-size: 28px;
+}
+
+h2 ~ p {
+  @extend .lead;
+  font-size: 22px;
+}
+
+h3 ~ p {
+  @extend .lead;
+  font-size: 22px;
+}

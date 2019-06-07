@@ -1,0 +1,31 @@
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-serif: 'Merriweather', serif;
+
+$green: #7ab603;
+$red: #fa4c40;
+$yellow: #ffb400;
+$blue: #1499d6;
+
+$primary: $blue;
+
+@mixin add-theme-bg {
+  background: #efefef;
+  color: #333;
+
+  &-green {
+    background: $green;
+    color: white;
+  }
+  &-red {
+    background: $red;
+    color: white;
+  }
+  &-yellow {
+    background: $yellow;
+    color: white;
+  }
+  &-blue {
+    background: $blue;
+    color: white;
+  }
+}

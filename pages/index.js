@@ -13,8 +13,8 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pb-4">
-      <div className="d-flex flex-wrap card-work">
+    <div className="pb-md-4">
+      <div className="d-flex flex-column flex-md-row card-work">
         <div style={{ backgroundColor: '#ffb400' }} className="preview d-flex align-items-center">
           <img alt="screen" className="screen img-fluid" src="/static/images/screen-vibejar.png" />
         </div>
@@ -44,11 +44,11 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pb-4">
-      <div className="d-flex flex-wrap card-work">
+    <div className="pb-md-4">
+      <div className="d-flex flex-column flex-md-row card-work">
         <div
           style={{ backgroundColor: '#1BAAA0' }}
-          className="order-1 preview d-flex align-items-center"
+          className="order-md-1 preview d-flex align-items-center"
         >
           <img alt="screen" className="screen img-fluid" src="/static/images/screen-zibbet.png" />
         </div>
@@ -78,8 +78,8 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pb-4">
-      <div className="d-flex flex-wrap card-work">
+    <div className="pb-md-4">
+      <div className="d-flex flex-column flex-md-row card-work">
         <div style={{ backgroundColor: '#0f1e44' }} className="preview d-flex align-items-center">
           <img alt="screen" className="screen img-fluid" src="/static/images/screen-frogid.png" />
         </div>
@@ -109,11 +109,11 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pb-4">
-      <div className="d-flex flex-wrap card-work">
+    <div className="pb-md-4">
+      <div className="d-flex flex-column flex-md-row card-work">
         <div
           style={{ backgroundColor: '#00b5ed' }}
-          className="order-1 preview d-flex align-items-center"
+          className="order-md-1 preview d-flex align-items-center"
         >
           <img alt="screen" className="screen img-fluid" src="/static/images/screen-bm.png" />
         </div>
@@ -148,7 +148,7 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pt-5">
+    <div className="pt-md-5">
       <h3>Mobile apps</h3>
       <div className="row">
         <div className="col-md-4 card-work--mini">

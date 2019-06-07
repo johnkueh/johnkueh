@@ -8,7 +8,8 @@
 
   &--mini {
     @extend .bg-white;
-    @extend .py-5;
+    @extend .py-3;
+    @extend .py-md-5;
     img {
       height: 230px;
       object-fit: cover;

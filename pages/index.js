@@ -149,7 +149,7 @@ export default () => (
       </div>
     </div>
     <div className="pt-5">
-      <h3>Mobile apps (React Native)</h3>
+      <h3>Mobile apps</h3>
       <div className="row">
         <div className="col-md-4 card-work--mini">
           <img className="img-fluid" src="/static/images/screen-whaletrail.png" />

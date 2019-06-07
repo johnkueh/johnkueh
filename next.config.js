@@ -3,8 +3,4 @@ const withMdx = require('@zeit/next-mdx')({
   extension: /\.mdx?$/
 });
 
-module.exports = withMdx(
-  withSass({
-    target: 'serverless'
-  })
-);
+module.exports = withMdx(withSass({}));

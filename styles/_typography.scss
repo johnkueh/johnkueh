@@ -33,17 +33,7 @@ h3 {
   @extend .headings;
 }
 
-h1 ~ p {
+h1 + p {
   @extend .lead;
   font-size: 28px;
-}
-
-h2 ~ p {
-  @extend .lead;
-  font-size: 22px;
-}
-
-h3 ~ p {
-  @extend .lead;
-  font-size: 22px;
 }

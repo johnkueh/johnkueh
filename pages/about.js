@@ -1,14 +1,13 @@
 import React from 'react';
-import Link from 'next/link';
 import Layout from '../layouts/main';
+import Content from '../content/about.mdx';
 
 export default () => (
   <Layout>
-    <h1>About</h1>
-    <div>
-      <Link href="/">
-        <a>Go to Home</a>
-      </Link>
+    <div className="row d-flex justify-content-center">
+      <div className="col-md-8">
+        <Content />
+      </div>
     </div>
   </Layout>
 );

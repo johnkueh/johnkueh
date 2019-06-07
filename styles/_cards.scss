@@ -4,26 +4,21 @@
   @extend .bg-light;
   @extend .my-5;
   @extend .rounded;
-  font-size: 18px;
 
-  &--mini {
-    @extend .bg-white;
-    @extend .py-3;
-    @extend .py-md-5;
-    img {
-      height: 230px;
-      object-fit: cover;
-    }
-    h2 {
-      @extend .mt-4;
-      font-size: 23px;
-    }
+  h2 ~ p {
+    @extend .lead;
+    font-size: 22px;
   }
+
+  h3 ~ p {
+    @extend .lead;
+    font-size: 22px;
+  }
+
   ul {
     padding: 0 0 0 18px;
     margin: 0;
     li {
-      font-size: 18px;
       margin-bottom: 15px;
     }
   }
@@ -49,6 +44,20 @@
     position: absolute;
     right: 0px;
     bottom: -60px;
+  }
+
+  &--mini {
+    @extend .bg-white;
+    @extend .py-3;
+    @extend .py-md-5;
+    img {
+      height: 230px;
+      object-fit: cover;
+    }
+    h2 {
+      @extend .mt-4;
+      font-size: 23px;
+    }
   }
 }
 

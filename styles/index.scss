@@ -36,6 +36,10 @@ a:hover {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @import 'typography';
 @import 'cards';
 @import 'badges';

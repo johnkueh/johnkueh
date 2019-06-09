@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../layouts/main';
+import Stroke from '../components/stroke';
 
-export default () => (
+const Index = () => (
   <Layout>
     <div className="p-3 mb-md-5 px-md-0 py-md-5">
       <div className="row">
@@ -20,143 +21,153 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="pb-md-4">
-      <div className="d-flex flex-column flex-md-row card-work">
-        <div style={{ backgroundColor: '#ffb400' }} className="preview d-flex align-items-center">
-          <img alt="screen" className="screen img-fluid" src="/static/images/screen-vibejar.png" />
-        </div>
-        <div className="content">
-          <h2>Vibejar</h2>
-          <p>A tool to track employee happyness</p>
-          <ul>
-            <li>
-              I am the solo developer building out the platform using the following tech: Next.js,
-              React.js, Node.js, Prisma, Serverless.
-            </li>
-            <li>
-              Implemented smart testing strategies while still allowing quick product iterations -
-              integration (Jest) and E2E (Cypress).
-            </li>
-            <li>Used GraphQL and Prisma for a super quick setup and flexible backend.</li>
-            <li>Product roadmap planning and writing user stories on Basecamp.</li>
-          </ul>
-          <div className="mt-4">
-            <Link href="#">
-              <a href="#">
-                View case study
-                <i className="ml-2 fal fa-long-arrow-right" />
-              </a>
-            </Link>
-          </div>
+    <div className="card-work">
+      <div className="preview d-flex align-items-center">
+        <img alt="screen" className="screen img-fluid" src="/static/images/screen-vibejar.png" />
+      </div>
+      <div className="content">
+        <h2 className="mb-5">
+          <span>Vibejar</span>
+          <span className="stroke">
+            <Stroke color="#ffb400" />
+          </span>
+        </h2>
+        <p>A tool to track employee happyness</p>
+        <ul>
+          <li>
+            I am the solo developer building out the platform using the following tech: Next.js,
+            React.js, Node.js, Prisma, Serverless.
+          </li>
+          <li>
+            Implemented smart testing strategies while still allowing quick product iterations -
+            integration (Jest) and E2E (Cypress).
+          </li>
+          <li>Used GraphQL and Prisma for a super quick setup and flexible backend.</li>
+          <li>Product roadmap planning and writing user stories on Basecamp.</li>
+        </ul>
+        <div className="mt-4">
+          <Link href="#">
+            <a href="#">
+              View case study
+              <i className="ml-2 fal fa-long-arrow-right" />
+            </a>
+          </Link>
         </div>
       </div>
     </div>
-    <div className="pb-md-4">
-      <div className="d-flex flex-column flex-md-row card-work">
-        <div
-          style={{ backgroundColor: '#1BAAA0' }}
-          className="order-md-1 preview d-flex align-items-center"
-        >
-          <img alt="screen" className="screen img-fluid" src="/static/images/screen-zibbet.png" />
-        </div>
-        <div className="content">
-          <h2>Zibbet</h2>
-          <p>A multi-channel e-commerce platform.</p>
-          <ul>
-            <li>
-              I work with 2 other developers to help build out the new Zibbet platform using
-              Ember.js and Ruby on Rails.
-            </li>
-            <li>Very well tested codebase, PR reviews for every feature release.</li>
-            <li>
-              I did backend work on subscription billing system (Braintree), worker jobs running on
-              a schedule (Sidekiq) and frontend work coding up designed components.
-            </li>
-            <li>Worked with the team via a Kanban-style product backlog on Asana.</li>
-          </ul>
-          <div className="mt-4">
-            <Link href="#">
-              <a href="#">
-                View case study
-                <i className="ml-2 fal fa-long-arrow-right" />
-              </a>
-            </Link>
-          </div>
+    <div className="card-work">
+      <div className="order-md-1 preview d-flex align-items-center">
+        <img alt="screen" className="screen img-fluid" src="/static/images/screen-zibbet.png" />
+      </div>
+      <div className="content">
+        <h2 className="mb-5">
+          <span>Zibbet</span>
+          <span className="stroke">
+            <Stroke color="#1BAAA0" />
+          </span>
+        </h2>
+        <p>A multi-channel e-commerce platform.</p>
+        <ul>
+          <li>
+            I work with 2 other developers to help build out the new Zibbet platform using Ember.js
+            and Ruby on Rails.
+          </li>
+          <li>Very well tested codebase, PR reviews for every feature release.</li>
+          <li>
+            I did backend work on subscription billing system (Braintree), worker jobs running on a
+            schedule (Sidekiq) and frontend work coding up designed components.
+          </li>
+          <li>Worked with the team via a Kanban-style product backlog on Asana.</li>
+        </ul>
+        <div className="mt-4">
+          <Link href="#">
+            <a href="#">
+              View case study
+              <i className="ml-2 fal fa-long-arrow-right" />
+            </a>
+          </Link>
         </div>
       </div>
     </div>
-    <div className="pb-md-4">
-      <div className="d-flex flex-column flex-md-row card-work">
-        <div style={{ backgroundColor: '#0f1e44' }} className="preview d-flex align-items-center">
-          <img alt="screen" className="screen img-fluid" src="/static/images/screen-frogid.png" />
-        </div>
-        <div className="content">
-          <h2>FrogID</h2>
-          <p>A platform to collect and evaluate frog calls!</p>
-          <ul>
-            <li>
-              I am the solo developer working with the Australian Museum and a mobile development
-              team from IBM to create this whole platform.
-            </li>
-            <li>Optimized backend to support 20,000 users and daily admin workflows.</li>
-            <li>
-              I designed and coded the whole frontend in React.js, and backend + API in Ruby on
-              Rails.
-            </li>
-            <li>Managed user stories, track bugs and client feedback in Basecamp.</li>
-          </ul>
-          <div className="mt-4">
-            <Link href="#">
-              <a href="#">
-                View case study
-                <i className="ml-2 fal fa-long-arrow-right" />
-              </a>
-            </Link>
-          </div>
+    <div className="card-work">
+      <div className="preview d-flex align-items-center">
+        <img alt="screen" className="screen img-fluid" src="/static/images/screen-frogid.png" />
+      </div>
+      <div className="content">
+        <h2 className="mb-5">
+          <span>FrogID</span>
+          <span className="stroke">
+            <Stroke color="#E45A01" />
+          </span>
+        </h2>
+        <p>A platform to collect and evaluate frog calls!</p>
+        <ul>
+          <li>
+            I am the solo developer working with the Australian Museum and a mobile development team
+            from IBM to create this whole platform.
+          </li>
+          <li>Optimized backend to support 20,000 users and daily admin workflows.</li>
+          <li>
+            I designed and coded the whole frontend in React.js, and backend + API in Ruby on Rails.
+          </li>
+          <li>Managed user stories, track bugs and client feedback in Basecamp.</li>
+        </ul>
+        <div className="mt-4">
+          <Link href="#">
+            <a href="#">
+              View case study
+              <i className="ml-2 fal fa-long-arrow-right" />
+            </a>
+          </Link>
         </div>
       </div>
     </div>
-    <div className="pb-md-4">
-      <div className="d-flex flex-column flex-md-row card-work">
-        <div
-          style={{ backgroundColor: '#00b5ed' }}
-          className="order-md-1 preview d-flex align-items-center"
-        >
-          <img alt="screen" className="screen img-fluid" src="/static/images/screen-bm.png" />
-        </div>
-        <div className="content">
-          <h2>Beaconmaker</h2>
-          <p>A platform for museums to build audio tour apps.</p>
-          <ul>
-            <li>
-              I founded this company. I am the solo developer that created the whole platform - a
-              content management system (CMS), and a system to produce white-labelled apps.
-            </li>
-            <li>
-              Supported audio tour apps from the biggest tourist attractions in Australia - Sydney
-              Opera House, Australian Museum, Sydney Living Museums and more!
-            </li>
-            <li>
-              CMS front end was built in React.js, backend in Ruby on Rails. Audio tour apps were
-              created using React Native and Expo
-            </li>
-            <li>
-              I did customer development, wrote user stories and managed customer accounts in Trello
-            </li>
-          </ul>
-          <div className="mt-4">
-            <Link href="#">
-              <a href="#">
-                View case study
-                <i className="ml-2 fal fa-long-arrow-right" />
-              </a>
-            </Link>
-          </div>
+    <div className="card-work">
+      <div className="order-md-1 preview d-flex align-items-center">
+        <img alt="screen" className="screen img-fluid" src="/static/images/screen-bm.png" />
+      </div>
+      <div className="content">
+        <h2 className="mb-5">
+          <span>Beaconmaker</span>
+          <span className="stroke">
+            <Stroke color="#00b5ed" />
+          </span>
+        </h2>
+        <p>A platform for museums to build audio tour apps.</p>
+        <ul>
+          <li>
+            I founded this company. I am the solo developer that created the whole platform - a
+            content management system (CMS), and a system to produce white-labelled apps.
+          </li>
+          <li>
+            Supported audio tour apps from the biggest tourist attractions in Australia - Sydney
+            Opera House, Australian Museum, Sydney Living Museums and more!
+          </li>
+          <li>
+            CMS front end was built in React.js, backend in Ruby on Rails. Audio tour apps were
+            created using React Native and Expo
+          </li>
+          <li>
+            I did customer development, wrote user stories and managed customer accounts in Trello
+          </li>
+        </ul>
+        <div className="mt-4">
+          <Link href="#">
+            <a href="#">
+              View case study
+              <i className="ml-2 fal fa-long-arrow-right" />
+            </a>
+          </Link>
         </div>
       </div>
     </div>
     <div className="pt-md-5">
-      <h3>Mobile apps</h3>
+      <h3 className="mb-5">
+        Mobile apps
+        <span className="stroke">
+          <Stroke color="#fa4c40" />
+        </span>
+      </h3>
       <div className="row">
         <div className="col-md-4 card-work--mini">
           <img className="img-fluid" src="/static/images/screen-whaletrail.png" />
@@ -194,7 +205,10 @@ export default () => (
       </div>
     </div>
     <div className="text-center mt-5 pt-5 pb-4">
-      <h3>I am so grateful to have worked with these awesome clients</h3>
+      <h3 className="text-center">
+        <div>Awesome clients I&apos;ve worked with:&nbsp;</div>
+        <Stroke color="#7ab603" />
+      </h3>
       <div className="py-3">
         <img
           alt="woolworths logo"
@@ -274,5 +288,28 @@ export default () => (
         </a>
       </Link>
     </div>
+    <style jsx>
+      {`
+        h2,
+        h3 {
+          position: relative;
+        }
+        h2 .stroke,
+        h3 .stroke {
+          position: absolute;
+          left: 0;
+          bottom: -35px;
+        }
+        .stroke-word {
+          position: relative;
+        }
+        .stroke-word .stroke {
+          bottom: -30px;
+          margin-left: 25px;
+        }
+      `}
+    </style>
   </Layout>
 );
+
+export default Index;

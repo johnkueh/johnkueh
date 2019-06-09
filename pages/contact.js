@@ -19,8 +19,9 @@ export default () => {
             src="https://airtable.com/embed/shrlvz9QWpffIOZ7v?backgroundColor=green"
             frameBorder="0"
             onLoad={() => setLoading(false)}
+            onWheel={() => {}}
             width="100%"
-            height="1044"
+            height="1200"
             style={{ background: 'transparent' }}
           />
         </div>

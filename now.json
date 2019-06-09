@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "name": "nextjs-static",
-  "builds": [
-  	{ "src": "package.json", "use": "@now/static-build" }
-  ]
+  "name": "johnkueh.com",
+  "alias": ["johnkueh.com", "www.johnkueh.com"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }

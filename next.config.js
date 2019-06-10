@@ -4,4 +4,10 @@ const withMdx = require('@zeit/next-mdx')({
   extension: /\.mdx?$/
 });
 
-module.exports = withMdx(withSass(withCss({})));
+module.exports = withMdx(
+  withSass(
+    withCss({
+      pageExtensions: ['js', 'jsx', 'md', 'mdx']
+    })
+  )
+);

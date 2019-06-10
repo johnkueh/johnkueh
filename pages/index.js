@@ -46,9 +46,9 @@ const Index = () => (
           <li>Product roadmap planning and writing user stories on Basecamp.</li>
         </ul>
         <div className="mt-4">
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/vibejar">
+            <a href="/case-studies/vibejar">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
@@ -80,9 +80,9 @@ const Index = () => (
           <li>Worked with the team via a Kanban-style product backlog on Asana.</li>
         </ul>
         <div className="mt-4">
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/zibbet">
+            <a href="/case-studies/zibbet">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
@@ -113,9 +113,9 @@ const Index = () => (
           <li>Managed user stories, track bugs and client feedback in Basecamp.</li>
         </ul>
         <div className="mt-4">
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/frog-id">
+            <a href="/case-studies/frog-id">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
@@ -152,9 +152,9 @@ const Index = () => (
           </li>
         </ul>
         <div className="mt-4">
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/beaconmaker">
+            <a href="/case-studies/beaconmaker">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
@@ -170,34 +170,38 @@ const Index = () => (
       </h3>
       <div className="row">
         <div className="col-md-4 card-work--mini">
-          <img className="img-fluid" src="/static/images/screen-whaletrail.png" />
+          <img alt="whale app" className="img-fluid" src="/static/images/screen-whaletrail.png" />
           <h2>AR Whale Trail</h2>
           <p>An augmented reality app to look for hidden whales!</p>
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/ar-whale-trail">
+            <a href="/case-studies/ar-whale-trail">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
         </div>
         <div className="col-md-4 card-work--mini">
-          <img className="img-fluid" src="/static/images/screen-treasurehunt.png" />
+          <img
+            alt="treasure hunt app"
+            className="img-fluid"
+            src="/static/images/screen-treasurehunt.png"
+          />
           <h2>Westpac 200 Treasure Hunt</h2>
           <p>A treasure hunt app to look for objects around the museum.</p>
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/westpac-200-treasure-hunt">
+            <a href="/case-studies/westpac-200-treasure-hunt">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>
         </div>
         <div className="col-md-4 card-work--mini">
-          <img className="img-fluid" src="/static/images/screen-bigw.jpg" />
+          <img alt="BIG W app" className="img-fluid" src="/static/images/screen-bigw.jpg" />
           <h2>BIG W Easter Egg Hunt</h2>
           <p>A treasure hunt app to look for virtual easter eggs in retail stores.</p>
-          <Link href="#">
-            <a href="#">
-              View case study
+          <Link href="/case-studies/big-w-easter-egg-hunt">
+            <a href="/case-studies/big-w-easter-egg-hunt">
+              Read more
               <i className="ml-2 fal fa-long-arrow-right" />
             </a>
           </Link>

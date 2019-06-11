@@ -1,7 +1,31 @@
-import Layout from '../../layouts/main';
+import { withLayout } from '../../layouts/case-study';
 
-export default Layout;
+export default withLayout({
+  title: 'Vibejar',
+  caption: 'A tool to track employee happyness',
+  color: '#ffb400',
+  tech: [
+    'React.js',
+    'Next.js',
+    'Node.js',
+    'Apollo Server',
+    'GraphQL',
+    ['graphql-shield', 'https://github.com/maticzav/graphql-shield'],
+    'Prisma',
+    'Jest',
+    'Cypress'
+  ],
+  servicesUsed: [
+    'AWS Fargate',
+    'AWS RDS',
+    'Zeit Now (Serverless)',
+    'Easycron',
+    'Prisma Cloud',
+    'SendGrid',
+    'Basecamp (Project Management)'
+  ]
+});
 
-# Vibejar
+<img width="600" className="img-fluid mb-5" src="/static/images/screen-vibejar.jpg" />
 
-This is a case study for Vibejar
+Case study coming soon

@@ -26,6 +26,6 @@ export default withLayout({
   ]
 });
 
-<img width="600" className="img-fluid mb-5" src="/static/images/screen-vibejar.jpg" />
+<img className="img-fluid mb-5" src="/static/images/screen-vibejar.png" />
 
 Case study coming soon

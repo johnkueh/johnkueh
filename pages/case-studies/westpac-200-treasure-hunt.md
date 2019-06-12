@@ -15,6 +15,6 @@ export default withLayout({
   ]
 });
 
-<img width="600" className="img-fluid mb-5" src="/static/images/screen-treasurehunt.png" />
+<img className="img-fluid mb-5" src="/static/images/screen-treasurehunt.png" />
 
 Case study coming soon

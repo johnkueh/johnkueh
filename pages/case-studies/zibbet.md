@@ -8,6 +8,6 @@ export default withLayout({
   servicesUsed: ['Heroku', 'Braintree', 'Sendgrid', 'Mailtrap', 'Asana (Project Management)']
 });
 
-<img width="600" className="img-fluid mb-5" src="/static/images/screen-zibbet.png" />
+<img className="img-fluid mb-5" src="/static/images/screen-zibbet.png" />
 
 Case study coming soon

@@ -15,6 +15,6 @@ export default withLayout({
   ]
 });
 
-<img width="600" className="img-fluid mb-5" src="/static/images/screen-whaletrail.png" />
+<img className="img-fluid mb-5" src="/static/images/screen-whaletrail.png" />
 
 Case study coming soon

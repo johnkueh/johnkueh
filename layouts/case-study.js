@@ -83,7 +83,7 @@ const CaseStudy = ({ title, caption, color, tech, servicesUsed, children }) => (
 
     <div className="bg-white py-3 py-md-5">
       <div className="container">
-        <div className="mb-5">
+        <div className="text-center text-md-left mb-5">
           <h1>{title}</h1>
           <p className="mb-1">{caption}</p>
           <span className="stroke">
@@ -91,7 +91,7 @@ const CaseStudy = ({ title, caption, color, tech, servicesUsed, children }) => (
           </span>
         </div>
         <div className="row">
-          <div className="order-md-1 col-md-4">
+          <div className="order-md-1 col-md-4 pl-md-5">
             <div>
               <h5>Technology stack</h5>
               {tech.map(tag => (

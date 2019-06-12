@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import Layout from '../layouts/main';
+import Stroke from '../components/stroke';
 
 export default () => {
   const [loading, setLoading] = useState(true);
@@ -14,7 +15,12 @@ export default () => {
           <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js" />
           {loading && (
             <div className="loading w-100 d-flex justify-content-center align-items-center">
-              Loading...
+              <h2 className="d-flex flex-column align-items-center mb-5">
+                <span>Loading...</span>
+                <span className="stroke">
+                  <Stroke color="#ffb400" />
+                </span>
+              </h2>
             </div>
           )}
           <iframe

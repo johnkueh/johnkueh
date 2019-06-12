@@ -8,6 +8,6 @@ export default withLayout({
   servicesUsed: ['Heroku', 'Sendgrid', 'Amazon S3', 'Basecamp (Project Management)']
 });
 
-<img width="600" className="img-fluid mb-5" src="/static/images/screen-frogid.png" />
+<img className="img-fluid mb-5" src="/static/images/screen-frogid.png" />
 
 Case study coming soon

@@ -1,0 +1,20 @@
+.articles {
+  &-content {
+    img {
+      @extend .mb-5;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @extend .mb-3;
+  }
+
+  code {
+    font-size: 12px;
+    line-height: 0.8;
+  }
+}

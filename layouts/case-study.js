@@ -81,32 +81,34 @@ const CaseStudy = ({ title, caption, color, tech, servicesUsed, children }) => (
       </div>
     </div>
 
-    <div className="bg-white py-3 py-md-5">
+    <div className="articles bg-white py-3 py-md-5">
       <div className="container">
-        <div className="text-center text-md-left mb-5">
-          <h1>{title}</h1>
-          <p className="mb-1">{caption}</p>
-          <span className="stroke">
-            <Stroke color={color} />
-          </span>
-        </div>
         <div className="row">
-          <div className="order-md-1 col-md-4 pl-md-5">
-            <div>
-              <h5>Technology stack</h5>
-              {tech.map(tag => (
-                <Tag key={tag} color={color} tag={tag} />
-              ))}
-            </div>
-            <div className="mt-5">
-              <h5>Services used</h5>
-              {servicesUsed.map(tag => (
-                <Tag key={tag} color={color} tag={tag} />
-              ))}
-            </div>
-          </div>
           <div className="col-md-8">
-            <div className="mt-5 mt-md-0">{children}</div>
+            <div className="text-center text-md-left mb-5">
+              <h1>{title}</h1>
+              <p className="mb-1">{caption}</p>
+              <span className="stroke">
+                <Stroke color={color} />
+              </span>
+            </div>
+            <div className="mt-5 mt-md-0 articles-content">{children}</div>
+          </div>
+          <div className="col-md-4 pl-md-5">
+            <div className="sticky-top pt-5">
+              <div>
+                <h5>Technology stack</h5>
+                {tech.map(tag => (
+                  <Tag key={tag} color={color} tag={tag} />
+                ))}
+              </div>
+              <div className="mt-5">
+                <h5>Services used</h5>
+                {servicesUsed.map(tag => (
+                  <Tag key={tag} color={color} tag={tag} />
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

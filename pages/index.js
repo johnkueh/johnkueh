@@ -57,7 +57,11 @@ const Index = () => (
     </div>
     <div className="card-work">
       <div className="order-md-1 preview d-flex align-items-center">
-        <img alt="screen" className="screen img-fluid" src="/static/images/screen-zibbet.png" />
+        <img
+          alt="screen"
+          className="screen img-fluid"
+          src="/static/images/screens/screen-zibbet.png"
+        />
       </div>
       <div className="content">
         <h2 className="mb-5">
